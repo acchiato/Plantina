@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <include layout="@layout/appbar"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/sensordata"
+            android:layout_width="330sp"
+            android:layout_height="120sp"
+            android:layout_marginBottom="30sp"
+            app:cardCornerRadius="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.212">
+
+            <ImageView
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/smallbolls_red" />
+
+            <TextView
+                android:layout_width="220sp"
+                android:layout_height="50sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/regular"
+                android:text="Detect my soil type"
+                android:textColor="#010101"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="100sp"
+                android:layout_height="120sp"
+                android:layout_marginLeft="230sp"
+                android:background="@drawable/homep1" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/myaccount"
+            android:layout_width="158sp"
+            android:layout_height="150sp"
+            android:layout_marginBottom="20sp"
+            app:cardCornerRadius="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.086"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.52">
+
+            <ImageView
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="5sp"
+                android:background="@drawable/smallbolls_blue" />
+
+            <TextView
+                android:layout_width="200sp"
+                android:layout_height="50sp"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/regular"
+                android:text="My Account"
+                android:textColor="#010101"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="160sp"
+                android:layout_height="120sp"
+                android:layout_marginTop="40sp"
+
+                android:background="@drawable/homep2" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/takephoto"
+            android:layout_width="160sp"
+            android:layout_height="195sp"
+            android:layout_marginStart="185dp"
+            android:layout_marginBottom="20sp"
+            app:cardCornerRadius="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.578">
+
+            <ImageView
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="5sp"
+                android:background="@drawable/smallbolls_yellow" />
+
+            <TextView
+                android:layout_width="200sp"
+                android:layout_height="50sp"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/regular"
+                android:text="Take a Snap"
+                android:textColor="#010101"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="160sp"
+                android:layout_height="150sp"
+                android:layout_marginTop="45sp"
+                android:background="@drawable/homep10" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/newssection"
+            android:layout_width="160sp"
+            android:layout_height="195sp"
+            android:layout_marginTop="410sp"
+            android:layout_marginBottom="20sp"
+            app:cardCornerRadius="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.099"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <ImageView
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="5sp"
+                android:background="@drawable/smallboll_orange" />
+
+            <TextView
+                android:layout_width="200sp"
+                android:layout_height="50sp"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/regular"
+                android:text="News"
+                android:textColor="#010101"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="130sp"
+                android:layout_height="130sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="60sp"
+                android:background="@drawable/homep4" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/aboutus"
+            android:layout_width="158sp"
+            android:layout_height="150sp"
+            android:layout_marginStart="185dp"
+            android:layout_marginTop="410sp"
+            android:layout_marginBottom="20sp"
+            app:cardCornerRadius="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <ImageView
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="5sp"
+                android:background="@drawable/smallbolls_purple" />
+
+            <TextView
+                android:layout_width="200sp"
+                android:layout_height="50sp"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/regular"
+                android:text="About Us"
+                android:textColor="#010101"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="160sp"
+                android:layout_height="120sp"
+                android:layout_marginTop="40sp"
+                android:background="@drawable/homep6" />
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

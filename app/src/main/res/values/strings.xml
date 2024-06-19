@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Plantina</string>
+    <string-array name="country">
+        <item>SHIP FROM</item>
+        <item>Colombo</item>
+        <item>Galle</item>
+        <item>Kandy</item>
+    </string-array>
+    <string-array name="decribes">
+        <item>TO</item>
+        <item>Colombo</item>
+        <item>Galle</item>
+        <item>Kandy</item>
+    </string-array>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "394689190093",
+    "firebase_url": "https://plantina.firebaseio.com",
+    "project_id": "plantina",
+    "storage_bucket": "plantina.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394689190093:android:9a166c18b08d44c1d4b184",
+        "android_client_info": {
+          "package_name": "com.example.plantina"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394689190093-he0jk2i8512qvep90dh616ovbq48retf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPr1l_i1emhOHmpFmk3MPOD4xiO5u6v00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394689190093-he0jk2i8512qvep90dh616ovbq48retf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
